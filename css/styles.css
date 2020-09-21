@@ -233,6 +233,7 @@ body {
     position: relative;
     opacity: 1;
     padding-top: 60px;
+    z-index: -3;
 }
 
 .menuArt img {
