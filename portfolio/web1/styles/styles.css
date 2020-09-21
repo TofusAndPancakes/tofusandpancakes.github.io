@@ -1,0 +1,1938 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+/* Navigation Bar Section */
+
+.navBar {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
+    color: #ffffff;
+}
+
+.navBar .navBarLeft {
+    width: 50%;
+    float: left;
+}
+
+.navBar .navBarLeft a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    position: absolute;
+    top: 10px;
+    left: 14.4px;
+
+}
+
+.navBar .navBarLeft h2 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    top: 65px;
+    left: 32.4px;
+    transform: rotate(-90deg);
+}
+
+.navBar .navBarRight {
+    width: 50%;
+    float: right;
+    padding-top: 1%;
+}
+
+.navBar .navBarRight a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    float: right;
+    padding-right: 5%;
+}
+
+/* Background Section */
+.background {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -3;
+    border: 1px solid transparent
+    overflow: hidden;
+}
+
+.background .backgroundText {
+    width: 100%;
+    position: absolute;
+    color: #000000;
+    padding-top: 300px;
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.background .backgroundText h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 43.3%;
+}
+
+.background .backgroundText h1 {
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 169px;
+    padding-left: 31.3%;
+}
+
+.background .backgroundText p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 61.3%;
+}
+
+.backgroundImage {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    transition: transform 5s;
+    z-index: -1;
+}
+
+.backgroundImage img {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+/* Introduction Section */
+
+.introductionHome {
+    width: 100%;
+    height: 448px;
+    background-color: #181818;
+    margin-top: 800px;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.introductionHomeContent {
+    padding-top: 3%;
+}
+
+.introductionHomePicture {
+    width: 40%;
+    float: left;
+}
+
+.introductionHomePicture img {
+    width: 320px;
+    margin-left: 30%;
+}
+
+.introductionHomeText {
+    width: 50%;
+    float: left;
+}
+
+.introductionHomeText .introductionHomeTextTop {
+    padding-top: 20px;
+}
+
+.introductionHomeText .introductionHomeTextTop h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.introductionHomeText .introductionHomeTextTop p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 185px;
+}
+
+.introductionHomeText .introductionHomeTextBottom {
+    padding-top: 25px;
+}
+
+.introductionHomeText .introductionHomeTextBottom p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.introductionHomeContent .introductionHomeRight {
+    width: 10%;
+    float: left;
+}
+
+/* Background Home Section */
+.backgroundPart1 {
+    width: 100%;
+    position: absolute;
+    top: 131%;
+    z-index: 0;
+}
+
+.backgroundPart1 img {
+    width: 100%;
+}
+
+/* Styles Section */
+
+.styleHome {
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.styleHomeLeft {
+    width: 15%;
+    height: 448px;
+    float: left;
+}
+
+.styleHomeCenter {
+    width: 70%;
+    height: 448px;
+    float: left;
+    color: #ffffff;
+}
+
+.styleHomeRight {
+    width: 15%;
+    height: 448px;
+    float: left;
+}
+.styleHomeCenter .apostropheUp {
+    font-style: italic;
+    font-size: 60px;
+    line-height: 70px;
+    position: absolute;
+    top: 21%;
+    left: 19%;
+}
+
+.styleHomeCenter .apostropheDown {
+    font-style: italic;
+    font-size: 60px;
+    line-height: 70px;
+    position: absolute;
+    bottom: 22%;
+    right: 21%;
+}
+
+.styleHomeCenter .styleHomeText {
+    width: 80%;
+    margin: auto;
+}
+
+.styleHomeCenter .styleHomeText p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.styleHomeCenter .styleHomeTitle h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    position: absolute;
+    right: 15%
+}
+
+.styleHomeCenter .styleHomeTitle p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 11.5%;
+    top: 32%;
+}
+
+.styleHomeButton {
+    width: auto;
+    height: 38px;
+    position: absolute;
+    right: 20%;
+    top: 80%;
+}
+
+.buttonLink {
+    width: 170px;
+    height: 38px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    padding: 5px 20px;
+
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+/* Works Section */
+.workHome {
+    width: 100%;
+    height: 448px;
+    background-color: #181818;
+    color: #ffffff;
+    position: relative;
+}
+
+.workHomeContent {
+    position: absolute;
+    top: 15%;
+    left: 11%;
+}
+
+.workHomeTitle {
+    width: 10%;
+    height: 448px;
+    float: left;
+}
+
+.workHomeTitle h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.workHomeTitle p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    transform: rotate(-90deg);
+    padding-left: 180px;
+    padding-bottom: 15px;.
+}
+
+.workHomeText {
+    width: 40%;
+    height: 448px;
+    float: left;
+    padding-left: 15px;
+}
+
+.workHomeText p {
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.workHomePic {
+    width: 40%;
+    height: 448px;
+    float: left;
+    padding-left: 40px;
+}
+
+.workHomePic img {
+    width: auto;
+    height: 307px;
+}
+
+.workHomePic h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    padding-left: 340px;
+}
+
+.workHomePic p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    position: absolute;
+    padding-left: 390px;
+    padding-top: 21px;
+}
+
+.workHomeButton {
+    float: right;
+    padding-top: 28px;
+    padding-left: 10px;
+}
+
+/* Awards Section */
+.awardHome {
+    width: 100%;
+    height: 448px;
+    position: relative;
+    color: #ffffff;
+    padding-top: 100px;
+}
+
+.awardHomeContent {
+    width: 100%;
+    text-align: center;
+}
+
+.awardHomeContent .awardHomeTitle h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.awardHomeContent .awardHomeTitle p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 110px;
+}
+
+.awardHomeContent .awardHomeText {
+    width: 75%;
+    margin: auto;
+}
+
+.awardHomeContent .awardHomeText p{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 50px;
+}
+
+.awardHomeContent .awardHomeButton {
+    padding-top: 50px;
+
+}
+
+/*  Home Section */
+.footerHome {
+    width: 100%;
+    height: 112px;
+    background: #181818;
+    color: #ffffff;
+    margin-top: 150px;
+    position: relative;
+    z-index: 1;
+}
+
+.footerHomeContent {
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footerHome img {
+    width: 2%;
+    position: relative;
+}
+
+/* Works Page */
+
+/* Background Work Section */
+.backgroundWork {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: -3;
+    border: 1px solid transparent
+    overflow: hidden;
+
+}
+
+.backgroundWork .backgroundTextWork {
+    width: 100%;
+    position: absolute;
+    color: #000000;
+    padding-top: 300px;
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.backgroundWork .backgroundTextWork h1 {
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 169px;
+    text-align: center;
+}
+
+.backgroundWork .backgroundTextWork p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 54.3%;
+}
+
+.backgroundWork .backgroundImageWork {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    transition: transform 5s;
+    z-index: -1;
+}
+
+.backgroundWork .backgroundImageWork img {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+
+.backgroundWork img {
+    width: 100%;
+}
+
+/* Work Work Section */
+/* TenkiNoKo */
+
+.TenkiNoKo {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    margin-top: 800px;
+    background-color: #181818;
+    color: #ffffff;
+}
+
+.TenkiNoKoTopper {
+    width: 100%;
+    height: 60px;
+}
+
+.TenkiNoKoBorder {
+    width: 95%;
+    margin: auto;
+    background-color: #181818;
+}
+
+.TenkiNoKoBorder .TenkiNoKoLeft {
+    width: 10%;
+    float: left;
+}
+
+.TenkiNoKoBorder .TenkiNoKoTitle {
+    width: 40%;
+    float: left;
+}
+
+.TenkiNoKoTitle h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+}
+
+.TenkiNoKoTitle p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.TenkiNoKoBorder .TenkiNoKoDesc {
+    width: 40%;
+    float: left;
+}
+
+.TenkiNoKoDesc h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+    padding-left: 50%;
+}
+
+.TenkiNoKoDesc p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 50%;
+}
+
+.TenkiNoKoBorder .TenkiNoKoRight {
+    width: 10%;
+    float: left;
+}
+
+/* Divider Section */
+.divider {
+    width: 100%;
+    height: 112px;
+}
+
+.divider img {
+    width: 100%;
+}
+
+/* General Work Section */
+.workSection {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    background-color: #181818;
+    color: #ffffff;
+}
+
+.workSectionTopper {
+    width: 100%;
+    height: 60px;
+}
+
+.workSectionBorder {
+    width: 95%;
+    margin: auto;
+}
+
+.workSectionBorder .workSectionLeft {
+    width: 10%;
+    float: left;
+}
+
+.workSectionBorder .workSectionTitle {
+    width: 40%;
+    float: left;
+}
+
+.workSectionTitle h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+}
+
+.workSectionTitle p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.workSectionBorder .workSectionDesc {
+    width: 40%;
+    float: left;
+}
+
+.workSectionDesc h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+    padding-left: 50%;
+}
+
+.workSectionDesc p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    padding-left: 50%;
+}
+
+.workSectionBorder .workSectionRight {
+    width: 10%;
+    float: left;
+}
+
+/* Footer Award Section */
+
+.footerStyle {
+    width: 100%;
+    height: 112px;
+    background: #181818;
+    color: #ffffff;
+}
+
+.footerStyleContent {
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* Awards Page */
+
+/* Background Awards Page */
+.backgroundAward {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: -3;
+    border: 1px solid transparent
+    overflow: hidden;
+
+}
+
+.backgroundAward .backgroundTextAward {
+    width: 100%;
+    position: absolute;
+    color: #000000;
+    padding-top: 300px;
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+
+}
+
+.backgroundAward .backgroundTextAward h1 {
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 169px;
+    text-align: center;
+}
+
+.backgroundAward .backgroundTextAward p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 59%;
+}
+
+.backgroundAward .backgroundImageAward {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    transition: transform 5s;
+    z-index: -1;
+}
+
+.backgroundAward .backgroundImageAward img {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.backgroundAward img {
+    width: 100%;
+}
+
+/* Award Introduction Section */
+.introductionAward {
+    width: 100%;
+    height: 295px;
+    background-color: #181818;
+    margin-top: 800px;
+    color: #ffffff;
+    position: relative;
+}
+
+.introductionAwardContent {
+    width: 100%;
+    height: 255px;
+    padding-top: 40px;
+}
+
+.introductionAwardLeft {
+    width: 25%;
+    float: left;
+}
+
+.introductionAwardTitle {
+    width: 10%;
+    float: left;
+}
+
+.introductionAwardTitle h1 {
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+}
+
+.introductionAwardTitle p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 27%;
+    top: 40%;
+}
+
+.introductionAwardText {
+    width: 40%;
+    float: left;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.introductionAwardText p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+.introductionAwardRight {
+    width: 25%;
+    float: left;
+}
+
+/* Award Intersection Sections */
+
+.backgroundAwardIntersect {
+    width: 100%;
+    height: 100px;
+}
+
+.backgroundAwardIntersect img {
+    width: 100%;
+}
+
+.backgroundAwardIntersectBottom {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.backgroundAwardIntersectBottom img {
+    width: 100%;
+}
+
+/* Award Movie Sections */
+.awardWorks {
+    width: 100%;
+    height: 305px;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+    opacity: 1;
+}
+
+.awardWorksShade {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(53, 53, 53, 0.43);
+    z-index: -1;
+}
+
+.awardWorks img{
+    width: 100%;
+    height: 305px;
+    position: absolute;
+    z-index: -2;
+}
+
+.awardWorksImage img {
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+.awardWorksContent {
+    width: 90%;
+    height: 305px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.awardWorksContent .awardWorksTitle {
+    padding-top: 50px;
+    width: 50%;
+    float: left;
+}
+
+.awardWorksContent .awardWorksTitleLonger {
+    padding-top: 20px;
+    width: 50%;
+    float: left;
+}
+
+.awardWorksTitle h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+}
+
+.awardWorksTitle p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.awardWorksTitleLonger h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 102px;
+}
+
+.awardWorksTitleLonger p {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.awardWorksContent .awardWorksText {
+    width: 50%;
+    float: left;
+}
+
+.awardWorksContent .paddingStrength1 {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+.awardWorksContent .paddingStrength2 {
+    padding-top: 50px;
+    width: 50%;
+    float: left;
+}
+
+.awardWorksContent .paddingStrength3 {
+    padding-top: 70px;
+    width: 50%;
+    float: left;
+}
+
+.awardWorksText h2 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.awardWorksText p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/*Award Conclusion Section */
+.conclusionAward {
+    width: 100%;
+    height: 200px;
+    background-color: #181818;
+    color: #ffffff;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.conclusionAwardContent {
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+.conclusionAwardContent .conclusionAwardText {
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.conclusionAwardContent .conclusionAwardButton {
+    padding-top: 30px;
+}
+
+/* Footer Awards Section */
+
+.footerAward {
+    width: 100%;
+    height: 112px;
+    background: #181818;
+    color: #ffffff;
+    margin-top: 75px;
+}
+
+.footerAwardContent {
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footerAward img {
+    width: 2%;
+    position: relative;
+}
+
+/* Styles Page */
+
+/* Background Styles Page */
+.backgroundStyle {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    z-index: -3;
+    border: 1px solid transparent
+    overflow: hidden;
+
+}
+
+.backgroundStyle .backgroundTextStyle {
+    width: 100%;
+    position: absolute;
+    color: #000000;
+    padding-top: 300px;
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.backgroundStyle .backgroundTextStyle h1 {
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 169px;
+    text-align: center;
+}
+
+.backgroundStyle .backgroundTextStyle p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-left: 51%;
+}
+
+.backgroundStyle .backgroundImageStyle {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    transition: transform 5s;
+    z-index: -1;
+}
+
+.backgroundStyle .backgroundImageStyle img {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+
+.backgroundStyle img {
+    width: 100%;
+}
+
+/* Styles Introduction Section */
+.introductionStyle {
+    width: 100%;
+    height: 295px;
+    background-color: #181818;
+    margin-top: 800px;
+    color: #ffffff;
+    position: relative;
+}
+
+.introductionStyleContent {
+    width: 100%;
+    height: 255px;
+    padding-top: 40px;
+}
+
+.introductionStyleLeft {
+    width: 15%;
+    float: left;
+}
+
+.introductionStyleTitle {
+    width: 10%;
+    float: left;
+}
+
+.introductionStyleTitle h1 {
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+}
+
+.introductionStyleTitle p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 18%;
+    top: 36%;
+}
+
+.introductionStyleText {
+    width: 60%;
+    padding-top: 10px;
+    float: left;
+    padding-left: 20px;
+}
+
+.introductionStyleText p {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+.introductionStyleRight {
+    width: 15%;
+    float: left;
+}
+
+/* Content Section 1 */
+.contentStyle1 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.contentStyle1 img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.contentStyle1Border {
+    width: 90%;
+    padding-top: 100px;
+    height: 500px;
+    margin: auto;
+}
+
+.contentStyle1Border .visualStyle1 {
+    width: 40%;
+    float: left;
+}
+
+.visualStyle1 img {
+    width: 35%;
+    height: auto;
+}
+
+.visualStyle1 h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-top: 55%;
+    padding-left: 55%;
+}
+
+.visualStyle1 p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-left: 55%;
+}
+
+.contentStyle1Border .visualStyle2 {
+    width: 40%;
+    float: left;
+}
+
+.visualStyle2 img {
+    width: 35%;
+    height: auto;
+}
+
+.visualStyle2 h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-top: 55%;
+    padding-left: 70%;
+}
+
+.visualStyle2 p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-left: 70%;
+}
+
+.contentStyle1Border .contentStyle1Desc {
+    width: 15%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.contentStyle1Desc p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+/* Content Section 2 */
+.contentStyle2 {
+    width: 100%;
+    height: 320px;
+    background-color: #181818;
+    position: relative;
+    z-index: 2;
+}
+
+.contentStyle2 .contentStyle2Border {
+    width: 60%;
+    margin: auto;
+}
+
+.contentStyle2Desc {
+    color: #ffffff;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contentStyle2Desc p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* Content Style 3 */
+.contentStyle3 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    color: #ffffff;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.contentStyle3 img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.contentStyle3Border {
+    width: 90%;
+    padding-top: 100px;
+    height: 500px;
+    margin: auto;
+}
+
+.contentStyle3Border .visualStyle3 {
+    width: 40%;
+    float: left;
+}
+
+.visualStyle3 img {
+    width: 35%;
+    height: auto;
+}
+
+.visualStyle3 h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-top: 55%;
+    padding-left: 55%;
+}
+
+.visualStyle3 p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-left: 55%;
+}
+
+.contentStyle3Border .visualStyle4 {
+    width: 40%;
+    float: left;
+}
+
+.visualStyle4 img {
+    width: 35%;
+    height: auto;
+}
+
+.visualStyle4 h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-top: 55%;
+    padding-left: 70%;
+}
+
+.visualStyle4 p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-left: 70%;
+}
+
+.contentStyle3Border .visualStyle5 {
+    width: 20%;
+    height: auto;
+}
+
+.visualStyle5 img {
+    width: 35%;
+    height: auto;
+}
+
+/* Content Style 4 */
+.contentStyle4 {
+    width: 100%;
+    height: 320px;
+    background-color: #181818;
+    color: #ffffff;
+    position: relative;
+}
+
+.contentStyle4Border {
+    width: 100%;
+    height: 320px;
+}
+
+.contentStyle4Left {
+    width: 15%;
+    float: left;
+}
+
+.contentStyle4Text {
+    width: 60%;
+    float: left;
+    padding-top: 60px;
+}
+
+.contentStyle4Text p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.contentStyle4Title {
+    width: 10%;
+    float: left;
+    padding-top: 60px;
+}
+
+.contentStyle4Title h1 {
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 113px;
+}
+
+.contentStyle4Title p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 13%;
+    top: 39%;
+}
+
+.contentStyle4Right {
+    width: 15%;
+    float: left;
+}
+
+/* Content Style 5 */
+
+.contentStyle5 {
+      width: 100%;
+      height: 410px;
+      background-color: #181818;
+      color: #ffffff;
+      position: relative;
+}
+
+/* Section 1 */
+
+.contentStyle5P1 {
+      width: 80%;
+      height: 80px;
+      margin: auto;
+      text-align: center;
+      padding-top: 40px;
+}
+
+.contentStyle5Left {
+      width: 10%;
+      float: left;
+}
+
+.contentStyle5TextP1 {
+      width: 80%;
+      float: left;
+}
+
+.contentStyle5Right {
+      width: 10%;
+      float: left;
+}
+
+.contentStyle5P1 p {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+}
+
+/* Section 2 */
+
+.contentStyle5P2 {
+      width: 80%;
+      height: 90px;
+      margin: auto;
+      padding-top: 40px;
+}
+
+.contentStyle5TitleP2 {
+      width: 40%;
+      float: left;
+}
+
+.contentStyle5TextP2 {
+      width: 40%;
+      float: left;
+}
+
+.contentStyle5TitleP2 h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+}
+
+.contentStyle5TitleP2 p {
+      font-style: italic;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+}
+
+.contentStyle5TextP2 p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+}
+
+
+/* Section 3 */
+
+.contentStyle5P3 {
+      width: 80%;
+      height: 90px;
+      margin: auto;
+      padding-top: 20px;
+}
+
+.contentStyle5TitleP3 {
+      width: 40%;
+      float: left;
+}
+
+.contentStyle5TextP3 {
+      width: 40%;
+      float: left;
+}
+
+.contentStyle5TitleP3 h1 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 28px;
+}
+
+.contentStyle5TitleP3 p {
+      font-style: italic;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 28px;
+}
+
+.contentStyle5TextP3 p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 28px;
+}
+
+/* Content Style 6 */
+
+.contentStyle6 {
+      width: 100%;
+      height: 500px;
+      position: relative;
+      color: #ffffff;
+      z-index: 1;
+}
+
+.contentStyle6 img {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.contentStyle6Border {
+    width: 90%;
+    padding-top: 100px;
+    height: 500px;
+    margin: auto;
+}
+
+.contentStyle6Border .contentStyle6Desc {
+    width: 15%;
+    float: left;
+    padding: 0px 30px;
+}
+
+.contentStyle6Desc p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.contentStyle6Border .writingStyle1 {
+    width: 40%;
+    float: left;
+}
+
+.writingStyle1 img {
+    width: 35%;
+    height: auto;
+}
+
+.writingStyle1 h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-top: 55%;
+    padding-left: 55%;
+}
+
+.writingStyle1 p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-left: 55%;
+}
+
+.contentStyle6Border .writingStyle2 {
+    width: 40%;
+    float: left;
+}
+
+.writingStyle2 img {
+    width: 35%;
+    height: 60%;
+}
+
+.writingStyle2 h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-top: 55%;
+    padding-left: 70%;
+}
+
+.writingStyle2 p {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    clear: right;
+    padding-left: 70%;
+}
+
+/* Content Style 7 */
+
+.contentStyle7 {
+    width: 100%;
+    height: 320px;
+    background-color: #181818;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+
+.contentStyle7 .contentStyle7Border {
+    width: 60%;
+    margin: auto;
+}
+
+.contentStyle7Extra {
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.contentStyle7Title {
+    padding-top: 50px;
+    text-align: center;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.contentStyle7Sub {
+    text-align: center;
+    padding-top: 15px;
+
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.contentStyle7Desc {
+    height: 90px;
+    color: #ffffff;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contentStyle7Desc p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+/* Content Style 8 */
+
+.contentStyle8 {
+    width: 100%;
+    height: 225px;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.contentStyle8 img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.contentStyle8Border {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.contentStyle8Desc {
+    padding-top: 80px;
+
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.contentStyle8Button {
+    padding-top: 20px;
+}
+
+/* Footer Style Section */
+
+.footerStyle {
+    width: 100%;
+    height: 112px;
+    background: #181818;
+    color: #ffffff;
+}
+
+.footerStyleContent {
+    padding-top: 15px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.footerStyle img {
+    width: 2%;
+    position: relative;
+}
+
+/* Accordion Section */
+.TenkiNoKoButton {
+    width: 100%;
+    height: 50px;
+    background-color: #181818;
+    padding-left: 12%;
+    position: relative;
+}
+
+.workSectionButton {
+    padding-top: 20px;
+    position: absolute;
+    top: 32%;
+    left: 12.3%;
+}
+
+.buttonLinkAccordion {
+    width: 170px;
+    height: 38px;
+    border: 2px solid #ffffff;
+    background-color: #181818;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-left: 12%;
+    margin-bottom: 20px;
+
+    padding: 5px 20px;
+
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+
+.active, .buttonLinkAccordion:hover {
+    background-color: #181818;
+}
+
+.accordionContent {
+    width: 90%;
+    margin-left: 12%;
+    height: 200px;
+    background-color: #181818;
+    color: #ffffff;
+    display: none;
+    overflow: hidden;
+    /* Notice Hidden by Default */
+}
+
+.accordionSynopsis {
+    width: 60%;
+    float: left;
+    padding-top: 20px;
+}
+
+.accordionMiddler {
+    width: 10%;
+    float: left;
+}
+
+.accordionRating {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+}
+
+/* Slideshow Section */
+.TenkiNoKoSlideshow {
+    z-index: 1;
+    width: 100%;
+    height: 232px;
+    background-color: #2b2b2b;
+}
+
+.workSectionSlideshow {
+    z-index: 1;
+    width: 100%;
+    height: 232px;
+    background-color: #2b2b2b;
+}
+.row {
+    padding-top: 20px;
+    width: 90%;
+    height: 252px;
+    margin: auto;
+}
+.row > .column {
+    padding: 0 6.5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 24%;
+    padding: 0 2.5px;
+}
+
+.columnBorder {
+    padding-left: 1%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3;
+    padding-top: 50px;
+    left: 25%;
+    top: 12.5%;
+    width: 50%;
+    height: 550px;
+    margin: auto;
+    background: rgba(24, 24, 24, 0.75);
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 12.5px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+.caption-container {
+    text-align: center;
+    padding: 2px 16px;
+    color: #ffffff;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.backgroundStyleWrapper {
+    background-color: #181818;
+}
+
+/* Extra Testing Section */
+/* Fade-In */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}

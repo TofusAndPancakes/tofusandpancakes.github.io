@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cat Headphones Company - News</title>
+
+    <!-- CSS Stuff -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Font Stuff -->
+    <!-- Raleway for Subtitles -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Heebo for Titles -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap" rel="stylesheet">
+    <!-- BenchNine for long texts -->
+    <link href="https://fonts.googleapis.com/css?family=BenchNine&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+  </head>
+  <body>
+
+  <!-- Navigation Bar -->
+  <div class="navBar">
+    <div class="navBarPadding">
+      <div class="navBarLeft">
+        <a href="index.html"><img src="images/finalLogo.png"><img src="images/logoArtBase.gif" id="defaultLogo" alt="LogoArt" onmouseover="hover(this);" onmouseout="unhover(this);"></a>
+      </div>
+      <div class="navBarRight">
+        <div class="navBarRightPadding">
+          <a href="video.html">video</a>
+          <a href="news.html">news</a>
+          <a href="contact.html">contact</a>
+          <a href="gallery.html">gallery</a>
+          <a href="shop.html">shop</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intersection Section -->
+  <div class="intersectionSize3">
+    <p>&nbsp</p>
+  </div>
+
+  <!-- Title Section -->
+  <div class="title">
+    <div class="titlePadding">
+      <div class="titleDesc">
+        <h2>GALLERY</h2>
+      </div>
+      <div class="titleArt">
+        <img src="images/galleryTitle.png" alt="galleryTitle">
+      </div>
+    </div>
+  </div>
+
+  <!-- Intersection Section -->
+  <div class="intersectionSize3">
+    <p>&nbsp</p>
+  </div>
+
+  <!-- News Section-->
+  <div class="news">
+    <div class="newsPadding">
+      <!-- Level 1 -->
+      <div class="newsSection">
+        <div class="newsSectionPadding">
+          <div class="newsLeft">
+            <img src="images/catNews1.jpg" alt="News1">
+          </div>
+          <div class="newsRight">
+            <div class="newsRightHeader">
+              <h2>20/04/20 - The New Neko Pro 3.0 is released!</h2>
+            </div>
+            <div class="newsRightSubtitle">
+              <p> After refining our drivers to ensure a highly characterized yet high quality sound, we are able to release the new Neko Pro 3.0.
+                  The Neko Pro series has been always our highest mark in our journey to engineer the
+                  best music experience for your cats, allowing your cats to enjoy the best of our Neko Comfort Series,
+                  along with the best quality and character of sound your cat can enjoy! </p>
+                <div class="newsLine"><p>&nbsp</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Level 2 -->
+      <div class="newsSection">
+        <div class="newsSectionPadding">
+          <div class="newsLeft">
+            <img src="images/catNews2.jpg" alt="News2">
+          </div>
+          <div class="newsRight">
+            <div class="newsRightHeader">
+              <h2>21/3/20 - Neko Pro 2.0 Driver Update Released!</h2>
+            </div>
+            <div class="newsRightSubtitle">
+              <p> As the New Neko Pro 3.0 is close to release, we are also doing our final touches to the Neko Pro 2.0 drivers based on our innovations and
+                  experimentation on the Neko Pro 3.0. Please download the update soon to allow your cat to enjoy your Neko Pro 2.0 to the best it can do.
+                  Includes new updates to the equalizer features from more preset and customization and driver optimizations to ensure more characteristic in Neko Pro 2.0’s sound. </p>
+                <div class="newsLine"><p>&nbsp</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Level 3 -->
+      <div class="newsSection">
+        <div class="newsSectionPadding">
+          <div class="newsLeft">
+            <img src="images/catNews3.jpg" alt="News3">
+          </div>
+          <div class="newsRight">
+            <div class="newsRightHeader">
+              <h2>15/12/19 - Neko Christmas! 20% off selected Headphones!</h2>
+            </div>
+            <div class="newsRightSubtitle">
+              <p> Give your cat as special gift for him/her this Christmas from the Neko Christmas catalog!
+                  We are giving out discounts to various headphones we have sold this year, and some with special edition colors.
+                  Input code NekoChristmas2019 on checkout and check which headphones are given discounts here! </p>
+                <div class="newsLine"><p>&nbsp</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Quote Section -->
+  <div class="quote">
+    <div class="quotePaddingShorter">
+      <div class="quoteText fade-in">
+        <h2>“Keep up to date with our promotions, release dates and driver updates from our socials!”</h2>
+        <div class="styleButton">
+            <a href="contact.html" class="buttonLinkTitle"> Check them out! </a>
+        </div>
+      </div>
+    </div>
+    <div class="quoteArt">
+      <img src="images/newsArt.png" alt="QuoteArt">
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <div class="footer">
+    <h2>All illustrations are self made... <a target="_blank" href="sources.html">but some sources are still used...</a> <br> Christofer Alvin © 2020</h2>
+  </div>
+
+      <script type="text/javascript">
+
+      /* Logo Animation Section */
+      function hover(element){
+        element.setAttribute('src', 'images/logoArtHover.gif');
+      }
+
+      function unhover(element){
+        element.setAttribute('src', 'images/logoArtHoverOff.gif');
+        var i = 31;
+        var animateNumber = setInterval(animateTimer, 100);
+        /* +- 1 second Animation, then return to normal */
+          function animateTimer(){
+              if (i > 0){
+                i = i-1;
+                console.log(i);
+              } else {
+                element.setAttribute('src', 'images/logoArtBase.gif');
+                console.log("Hit!");
+                clearInterval(animateNumber);
+              }
+          }
+      }
+
+      //Fade-In Text
+      const fade = document.querySelectorAll(".fade-in");
+      const appearOptions = {
+        threshold: 1
+      };
+
+      const appearOnScroll = new IntersectionObserver
+      (function(entries, appearOnScroll) {
+          entries.forEach(entry => {
+            if (!entry.isIntersecting){
+              return;
+            } else {
+              entry.target.classList.add('appear');
+              appearOnScroll.unobserve(entry.target);
+            }
+          })
+      }, appearOptions);
+
+      fade.forEach(fader => {
+        appearOnScroll.observe(fader);
+      })
+
+      //Credit to https://www.youtube.com/watch?v=huVJW23JHKQ
+
+      </script>
+    </body>
+  </html>
