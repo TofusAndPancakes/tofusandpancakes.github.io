@@ -278,6 +278,8 @@ body {
       background-color: #181818;
       color: #ffffff;
       margin-top: 10px;
+      text-align: center;
+      display: inline-block;
 
       border: 1px solid transparent;
       box-sizing: border-box;
@@ -398,6 +400,91 @@ body {
     padding-bottom: 20px;
 }
 
+/* Portfolio Visual Section Version */
+
+.portV {
+    height: 430px;
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+    background: #181818;
+}
+
+.portVPadding {
+    height: 430px;
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.portVTitle {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    padding-top: 25px;
+}
+
+.portVDesc {
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+/* Portfolio Floor */
+.portVContent {
+    height: 310px;
+    width: 100%;
+    position: relative;
+}
+
+.portVFloor {
+    height: 310px;
+    width: 100%;
+    position: relative;
+}
+
+/* Portfolio Floor Single Webs */
+.portVFloorSet {
+    height: 310px;
+    width: 33%;
+    position: relative;
+    float: left;
+}
+
+.portVContent h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.portVButtonSet {
+    height: 310px;
+    width: 95%;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    transition: 0.3s;
+
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.portVButtonSet:hover {
+    background-color: #252525;
+}
+
+.portVDescIn{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
 /* Setting with Smaller Screen */
 
 @media only screen and (max-width: 1180px) {
@@ -443,6 +530,57 @@ body {
 
   .portWDescIn {
       height: 50px;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      position: relative;
+      padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .portV {
+      height: 450px;
+      width: 100%;
+      position: relative;
+      color: #ffffff;
+      background: #181818;
+  }
+
+  .portVContent {
+      height: 340px;
+      width: 100%;
+      position: relative;
+  }
+
+  .portVFloor {
+      height: 340px;
+      width: 100%;
+      position: relative;
+  }
+
+  .portVFloorSet {
+      height: 340px;
+      width: 33%;
+      position: relative;
+      float: left;
+  }
+
+  .portVButtonSet {
+      height: 340px;
+      width: 95%;
+      position: relative;
+      margin: auto;
+      padding-top: 10px;
+      transition: 0.3s;
+
+      border: 3px solid transparent;
+      box-sizing: border-box;
+      border-radius: 6px;
+  }
+
+  .portVDescIn {
+      height: 60px;
       width: 80%;
       margin: auto;
       text-align: center;
@@ -500,9 +638,210 @@ body {
       position: relative;
       padding-bottom: 20px;
   }
+}
 
+@media only screen and (max-width: 825px) {
+  .portV {
+      height: 980px;
+      width: 100%;
+      position: relative;
+      color: #ffffff;
+      background: #181818;
+  }
+
+  .portVContent {
+      height: 870px;
+      width: 100%;
+      position: relative;
+  }
+
+  .portVFloor {
+      height: 870px;
+      width: 100%;
+      position: relative;
+  }
+
+  .portVFloorSet {
+      height: 290px;
+      width: 100%;
+      position: relative;
+      float: left;
+  }
+
+  .portVButtonSet {
+      height: 280px;
+      width: 95%;
+      position: relative;
+      margin: auto;
+      padding-top: 10px;
+      transition: 0.3s;
+
+      border: 3px solid transparent;
+      box-sizing: border-box;
+      border-radius: 6px;
+  }
+
+  .portVDescIn {
+      height: 30px;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+      position: relative;
+      padding-bottom: 20px;
+  }
 }
 /* Small Screen Setting End */
+
+/* Middle Opposite Section */
+.portC {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    color: #181818;
+}
+
+.portCPadding {
+    height: 600px;
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.portCArt {
+    height: 600px;
+    width: 30%;
+    position: relative;
+    float: left;
+}
+
+.portCContent {
+    height: 600px;
+    width: 70%;
+    position: relative;
+    float: left;
+}
+
+.portCTitle {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    padding-top: 120px;
+}
+
+.portCDesc {
+    width: 40px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.portCFloor {
+    height: 300px;
+    width: 90%;
+    position: relative;
+    float: left;
+}
+
+.portCFloorSet {
+    height: 300px;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.portCButtonSet {
+    height: 280px;
+    width: 95%;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+    transition: 0.3s;
+
+    border: 3px solid transparent;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.portCButtonSet:hover {
+    background-color: rgba(24, 24, 24, 0.5);
+    color: #ffffff;
+}
+
+.portCContent h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.portCArt img {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    z-index: -3;
+
+    bottom: 0%;
+    right: 0%;
+}
+
+.portCArtIn {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.portCArtIn img {
+    height: 150px;
+    width: auto;
+    position: relative;
+
+    border: 3px solid #181818;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 825px) {
+  .portCArt {
+      display: none;
+  }
+
+  .portC {
+      height: 900px;
+      width: 100%;
+      position: relative;
+      color: #181818;
+  }
+
+  .portCPadding {
+      height: 900px;
+      width: 80%;
+      position: relative;
+      margin: auto;
+  }
+
+  .portCContent {
+      height: 900px;
+      width: 100%;
+      position: relative;
+      float: left;
+  }
+
+  .portCFloor {
+      height: 300px;
+      width: 100%;
+      position: relative;
+      float: left;
+  }
+
+  .portCFloorSet {
+      height: 300px;
+      width: 100%;
+      position: relative;
+      float: left;
+  }
+}
 
 /* Padding Section */
 .paddingSec {
@@ -535,6 +874,13 @@ body {
     margin: auto;
     height: 3px;
     background-color: #ffffff;
+}
+
+.lineSeperateOpposite {
+    width: 70%;
+    margin: auto;
+    height: 3px;
+    background-color: #181818;
 }
 
 /* Font Collection */
