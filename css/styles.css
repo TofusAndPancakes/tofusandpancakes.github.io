@@ -682,12 +682,12 @@ body {
   }
 
   .portVDescIn {
-      height: 30px;
+      height: 50px;
       width: 80%;
       margin: auto;
       text-align: center;
       position: relative;
-      padding-bottom: 20px;
+      padding-bottom: 10px;
   }
 }
 /* Small Screen Setting End */
