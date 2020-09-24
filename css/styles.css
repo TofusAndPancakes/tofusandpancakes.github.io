@@ -1040,7 +1040,7 @@ body {
   }
 
   .reportTitle {
-      height: auto;
+      height: 130px;
       width: 100%;
       position: relative;
       background: #181818;
