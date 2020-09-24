@@ -1046,6 +1046,13 @@ body {
       background: #181818;
   }
 
+  .reportInfoPadding {
+      height: 130px;
+      width: 70%;
+      position: relative;
+      margin: auto;
+  }
+
   .reportTitleIcon {
     display: none;
   }
