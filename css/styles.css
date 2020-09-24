@@ -1070,8 +1070,8 @@ body {
       font-family: Heebo;
       font-style: normal;
       font-weight: 800;
-      font-size: 42px;
-      line-height: 48px;
+      font-size: 38px;
+      line-height: 42px;
   }
 
   .reportInfoPadding {
@@ -1094,7 +1094,6 @@ body {
       margin: auto;
       text-align: left;
   }
-
 }
 
 /* Footer */
