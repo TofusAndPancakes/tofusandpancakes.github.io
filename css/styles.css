@@ -766,7 +766,7 @@ body {
     padding-top: 10px;
     transition: 0.3s;
     color: #181818;
-    
+
     border: 3px solid transparent;
     box-sizing: border-box;
     border-radius: 6px;
@@ -860,6 +860,236 @@ body {
     position: relative;
 }
 
+/* Report Section */
+.report {
+    height: 2000px;
+    width: 100%;
+    position: relative;
+    color: #ffffff;
+}
+
+.reportTitle {
+    height: 200px;
+    width: 100%;
+    position: relative;
+    background: #181818;
+}
+
+.reportTitlePadding {
+    height: 200px;
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+.reportTitleIcon {
+    height: 175px;
+    width: 200px;
+    position: relative;
+    float: left;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.reportTitleIcon img {
+    height: 150px;
+    width: auto;
+    position: relative;
+
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.reportTitleDesc {
+    height: 140px;
+    width: 70%;
+    position: relative;
+    float: left;
+    padding-top: 60px;
+}
+
+.reportTitleHead {
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.reportTitleSub {
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.reportTitleSub p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.reportTitle h1 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 64px;
+}
+
+.reportInfo {
+    height: 1900px;
+    width: 100%;
+    position: relative;
+}
+
+.reportInfoPadding {
+    height: inherit;
+    width: 70%;
+    position: relative;
+    margin: auto;
+}
+
+.reportInfoDesc {
+    height: inherit;
+    width: 800px;
+    position: relative;
+    background-color: #141414;
+    margin: auto;
+}
+
+.reportInfoDescIn {
+    width: 720px;
+    position: relative;
+    margin: auto;
+    text-align: left;
+}
+
+.reportWideImage {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.reportWideImage img {
+    width: 100%;
+    height: auto;
+}
+
+.reportWideSub {
+    width: 80%;
+    height: 40px;
+    text-align: right;
+    margin: auto;
+}
+
+/*H4 here is used for small Titles*/
+.reportInfo h4 {
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/*H3 here is used for Information */
+.reportInfo h3 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.reportInfo h6 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.reportInfoRepo {
+    height: 50px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1040px) {
+  .reportTitlePadding {
+      height: 200px;
+      width: 100%;
+      position: relative;
+      margin: auto;
+  }
+
+  .reportInfoPadding {
+      height: inherit;
+      width: 100%;
+      position: relative;
+      margin: auto;
+  }
+}
+
+@media only screen and (max-width: 825px) {
+  .report {
+      height: auto;
+      width: 100%;
+      position: relative;
+      color: #ffffff;
+      background: #141414;
+  }
+
+  .reportTitle {
+      height: 200px;
+      width: 100%;
+      position: relative;
+      background: #181818;
+  }
+
+  .reportTitleIcon {
+    display: none;
+  }
+
+  .reportTitleDesc {
+      height: 140px;
+      width: 90%;
+      position: relative;
+      float: left;
+      padding-top: 60px;
+      padding-left: 20px;
+  }
+
+  /* H1 Used for Welcome */
+  .reportTitle h1 {
+      font-family: Heebo;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 54px;
+  }
+
+  .reportInfoPadding {
+      width: 100%;
+      height: auto;
+      position: relative;
+      margin: auto;
+  }
+
+  .reportInfoDesc {
+      height: auto;
+      width: 100%;
+      position: relative;
+      background-color: #141414;
+  }
+
+  .reportInfoDescIn {
+      width: 80%;
+      position: relative;
+      margin: auto;
+      text-align: left;
+  }
+}
+
 /* Footer */
 .footer {
     height: 100px;
@@ -895,7 +1125,7 @@ body {
 
 /* Font Collection */
 
-/*H1 Used for Welcome */
+/* H1 Used for Welcome */
 h1 {
     font-family: Heebo;
     font-style: normal;
@@ -904,7 +1134,7 @@ h1 {
     line-height: 76px;
 }
 
-/*H2 Used for Titles */
+/* H2 Used for Titles */
 h2 {
     font-family: Heebo;
     font-style: normal;
@@ -913,7 +1143,7 @@ h2 {
     line-height: 24px;
 }
 
-/*H3 Used for Desc */
+/* H3 Used for Desc */
 h3 {
     font-family: Raleway;
     font-style: normal;
@@ -922,7 +1152,7 @@ h3 {
     line-height: 18px;
 }
 
-/*H3 Used for Title Desc */
+/* H4 Used for Title Desc */
 h4 {
     font-family: Raleway;
     font-style: normal;
