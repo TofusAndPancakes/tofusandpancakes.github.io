@@ -1039,6 +1039,10 @@ body {
       background-color: #141414;
   }
 
+  .reportInfo {
+      height: auto;
+  }
+
   .reportTitle {
       height: 130px;
       width: 100%;
