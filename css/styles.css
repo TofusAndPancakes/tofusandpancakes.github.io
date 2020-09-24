@@ -1036,7 +1036,7 @@ body {
       width: 100%;
       position: relative;
       color: #ffffff;
-      background: #141414;
+      background-color: #141414;
   }
 
   .reportTitle {
@@ -1051,12 +1051,18 @@ body {
   }
 
   .reportTitleDesc {
-      height: 140px;
+      height: auto;
       width: 90%;
       position: relative;
       float: left;
-      padding-top: 60px;
-      padding-left: 20px;
+      padding-top: 20px;
+      padding-left: 5%;
+  }
+
+  .reportTitleHead {
+      height: auto;
+      width: 100%;
+      position: relative;
   }
 
   /* H1 Used for Welcome */
@@ -1064,8 +1070,8 @@ body {
       font-family: Heebo;
       font-style: normal;
       font-weight: 800;
-      font-size: 50px;
-      line-height: 54px;
+      font-size: 42px;
+      line-height: 48px;
   }
 
   .reportInfoPadding {
@@ -1088,6 +1094,7 @@ body {
       margin: auto;
       text-align: left;
   }
+
 }
 
 /* Footer */
