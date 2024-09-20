@@ -972,6 +972,18 @@ body {
     grid-row: span 1;
 }
 
+.articleContentWideMargin {
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: left;
+
+    grid-column: span 3;
+    grid-row: span 1;
+
+    margin-bottom: 40px;
+}
+
 .articleContentDefaultImage {
     width: 100%;
     height: auto;
