@@ -180,8 +180,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 
-    padding-bottom: 40px;
-
     overflow: hidden;
 }
 
