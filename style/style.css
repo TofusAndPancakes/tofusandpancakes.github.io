@@ -181,6 +181,8 @@ body {
     justify-content: flex-start;
 
     overflow: hidden;
+
+    margin-bottom: 30px;
 }
 
 .introductionHeader {
@@ -194,10 +196,16 @@ body {
 }
 
 .introductionMenu .introductionSpan {
-    font-size: 92px;
+    font-size: 4em;
     line-height: 1;
 
     padding-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+.introductionMenu .introductionSpan {
+        font-size: 2em;
+    }
 }
 
 .capitalize {
@@ -243,12 +251,22 @@ button {
     cursor: pointer;
 }
 
+.introductionTagList .redColor.filterActive {
+    background-color: #C20B0B;
+    cursor: pointer;
+}
+
 .introductionTagList .blueColor {
     background-color: #6484F7;
     transition: background-color 0.3s;
 }
 
 .introductionTagList .blueColor:hover {
+    background-color: #6273AE;
+    cursor: pointer;
+}
+
+.introductionTagList .blueColor.filterActive{
     background-color: #6273AE;
     cursor: pointer;
 }
@@ -263,12 +281,22 @@ button {
     cursor: pointer;
 }
 
+.introductionTagList .purpleColor.filterActive {
+    background-color: #644191;
+    cursor: pointer;
+}
+
 .introductionTagList .greenColor {
     background-color: #53DF82;
     transition: background-color 0.3s;
 }
 
 .introductionTagList .greenColor:hover {
+    background-color: #7AA98A;
+    cursor: pointer;
+}
+
+.introductionTagList .greenColor.filterActive {
     background-color: #7AA98A;
     cursor: pointer;
 }
@@ -285,6 +313,7 @@ button {
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: min-content;
     grid-gap: 15px;
 }
 
@@ -305,7 +334,14 @@ button {
     align-self: center;
 
     transition: border 0.3s ease-in-out, 0.3s ease-in-out, min-height 0.3s ease-in-out, margin 0.3s ease-in-out;
+
+    display: none;
 }
+
+.workEntry.show {
+    display: block;
+}
+
 
 .workEntry:hover {
     width: calc(100%);
