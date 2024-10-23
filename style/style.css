@@ -212,8 +212,17 @@ body {
     text-transform: uppercase;
 }
 
-.introductionTagList {
+.introductionTagHeader {
     width: 100%;
+    height: auto;
+
+    position: relative;
+    float: left;
+
+}
+
+.introductionTagList {
+    width: calc(100% - 10px);
     height: auto;
 
     position: relative;
@@ -224,6 +233,11 @@ body {
     justify-content: flex-start;
     flex-wrap: wrap;
     gap: 15px;
+
+    padding: 5px;
+    border-radius: 5px;
+
+    background-color: #3E3E3E;
 }
 
 .introductionTag {
@@ -241,6 +255,35 @@ button {
     border: transparent;
 }
 
+.introductionTagTitle {
+    width: auto;
+    min-height: calc(28px + 10px);
+
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    text-transform: uppercase;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+}
+
+.introductionTagList .tealColor {
+    background-color: #53DFC6;
+    transition: background-color 0.3s;
+}
+
+.introductionTagList .tealColor:hover {
+    background-color: #3DB29D;
+    cursor: pointer;
+}
+
+.introductionTagList .tealColor.filterActive {
+    background-color: #3DB29D;
+    cursor: pointer;
+}
+
 .introductionTagList .redColor {
     background-color: #F63939;
     transition: background-color 0.3s;
@@ -253,6 +296,21 @@ button {
 
 .introductionTagList .redColor.filterActive {
     background-color: #C20B0B;
+    cursor: pointer;
+}
+
+.introductionTagList .pinkColor {
+    background-color: #FC61BE;
+    transition: background-color 0.3s;
+}
+
+.introductionTagList .pinkColor:hover {
+    background-color: #AD1370;
+    cursor: pointer;
+}
+
+.introductionTagList .pinkColor.filterActive {
+    background-color: #AD1370;
     cursor: pointer;
 }
 
@@ -333,7 +391,9 @@ button {
 
     align-self: center;
 
-    transition: border 0.3s ease-in-out, 0.3s ease-in-out, min-height 0.3s ease-in-out, margin 0.3s ease-in-out;
+    transition: border 0.3s ease-in-out, width 0.3s ease-in-out, 0.3s ease-in-out, margin 0.3s ease-in-out;
+    transition-delay: 0.2s, 0.2s, 0.2s, 0.2s;
+    transition-property: border, width, min-height, margin;
 
     display: none;
 }
@@ -342,8 +402,18 @@ button {
     display: block;
 }
 
-
 .workEntry:hover {
+    width: calc(100%);
+    min-height: calc(400px);
+
+    border: 2px solid #FFFFFF;
+
+    margin: 0px;
+
+    cursor: pointer;
+}
+
+.workEntry:focus-within {
     width: calc(100%);
     min-height: calc(400px);
 
@@ -352,12 +422,28 @@ button {
     margin: 0px;
 }
 
+.workEntry:focus-within >  .workEntryHeader{
+    opacity: 1;
+}
+
+.workEntry:focus-within > .workEntryLink {
+    opacity: 1;
+}
+
+.workEntry:focus-within > .workEntryLink .workTagsFocus{
+    padding: 5px;
+    border-radius: 5px;
+
+    animation: focusPulse 2s ease-in-out infinite;
+}
+
 .workEntry:hover > .workEntryLink .workTagsFocus {
     padding: 5px;
     border-radius: 5px;
     
     animation: focusPulse 2s ease-in-out infinite;
 }
+
 
 .workEntry h3 {
     font-size: 54px;
@@ -386,6 +472,9 @@ button {
 
     display: flex;
     flex-direction: column;
+
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .workEntryTitle {
@@ -454,6 +543,10 @@ button {
     background-color: #6484F7;
 }
 
+.workEntryTags .pinkColor {
+    background-color: #FC61BE;
+}
+
 .workEntryTags .purpleColor {
     background-color: #7D38D4;
 }
@@ -477,6 +570,10 @@ button {
     flex-direction: column;
 
     gap: 10px;
+
+    opacity: 0;
+
+    transition: opacity 0.2s ease-in-out;
 }
 
 .workEntryLinkEntry {
@@ -569,6 +666,15 @@ button {
 
     word-break: break-word;
 }
+
+.workEntry:hover > .workEntryHeader {
+    opacity: 1;
+}
+
+.workEntry:hover > .workEntryLink {
+    opacity: 1;
+}
+
 
 /* Heading Menu */
 .headingMenu {
@@ -800,7 +906,8 @@ button {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .footerLinks a {
@@ -927,21 +1034,25 @@ button {
 
 /* Resume Title */
 .sectionHeader {
-    width: calc(100% - 120px);
+    width: calc(100% - 60px);
     height: auto;
     position: relative;
     float: left;
 
-    padding: 0 60px 0 60px;
+    padding: 0 30px 0 30px;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .sectionHeader h3 {
     line-height: 1;
+    margin-bottom: 10px;
+}
+
+.sectionContent p {
     margin-bottom: 20px;
 }
 

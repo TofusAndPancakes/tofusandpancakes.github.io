@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Styling -->
+    <link href="style/style.css" rel="stylesheet">
+
+    <!-- Javascript -->
+    <script src="script/script.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/tofuPancake.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Manrope&display=swap" rel="stylesheet">
+    <!-- Title -->
+    <title>TofusAndPancakes - Christofer Alvin - Programming</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="navbarIcon">
+            <a href="index.html"><img src="images/tofuPancake.png" alt="Logo"></a>
+        </div>
+        <div class="navbarContent navbarWide">
+            <div class="navbarLink" id="navTrigger">
+                <a href="index.html#work">
+                    <h2>Works</h2>
+                </a>
+                <div class='dropDownNav' id='navActive'>
+                    <div class='dropDownNavPadding'>
+                        <a href="web.html">
+                            <h2>Web</h2>
+                        </a>
+                        <a href="multimedia.html">
+                            <h2>Media</h2>
+                        </a>
+                        <a href="uiux.html">
+                            <h2>UI UX</h2>
+                        </a>
+                        <a href="programming.html">
+                            <h2>Program</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbarLink navbarWide"><a href="resume.html">
+                <h2>Resume</h2>
+            </a>
+        </div>
+    
+        <div class="navbarContent navbarSmall">
+            <div class="navbarLink" id="navTriggerSmall">
+                <h2>Menu</h2>
+                <div class='dropDownNavSmall' id='navActiveSmall'>
+                    <div class='dropDownNavPadding'>
+                        <a href="web.html">
+                            <h2>Web</h2>
+                        </a>
+                        <a href="multimedia.html">
+                            <h2>Media</h2>
+                        </a>
+                        <a href="uiux.html">
+                            <h2>UI UX</h2>
+                        </a>
+                        <a href="programming.html">
+                            <h2>Program</h2>
+                        </a>
+                        <hr>
+                        <a href="resume.html">
+                            <h2>Resume</h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work Title -->
+    <div class="sectionHeader">
+        <div class="sectionContent">
+            <h3>PROGRAMMING</h3>
+            <p>All of my creative coding/programming works, along with game design and development!</p>
+        </div>
+        <div class="introductionTagList" id="introductionTagList">
+            <div class="introductionTagTitle">
+                <p>Filters:</p>
+            </div>
+            <button class="introductionTag tealColor filterActive" data-filter-tag="all">
+                <p>All</p>
+            </button>
+            <button class="introductionTag redColor" data-filter-tag="processing">
+                <p>Processing (Java)</p>
+            </button>
+            <button class="introductionTag blueColor" data-filter-tag="gameprogram">
+                <p>Game Programming</p>
+            </button>
+            <button class="introductionTag purpleColor" data-filter-tag="gamedesign">
+                <p>Game Design</p>
+            </button>
+            <button class="introductionTag pinkColor" data-filter-tag="coding">
+                <p>Coding</p>
+            </button>
+            <button class="introductionTag greenColor" data-filter-tag="illust">
+                <p>Illustration</p>
+            </button>
+        </div>
+    </div>
+
+    <!-- Executive Summary Section -->
+    <div class="executiveSummaryMenu">
+        
+        <div class="workEntry gameprogram gamedesign">
+            <img src="images/sideHustleProject.png" alt="SideHustle">
+            <div class="workEntryHeader">
+                <div class="workEntryTitle">
+                    <h3>Side Hustle</h3>
+                </div>
+                <div class="workEntryTags">
+                    <button class="workTags purpleColor" tabindex="-1">
+                        <p>Game Design</p>
+                    </button>
+                    <button class="workTags blueColor" tabindex="-1">
+                        <p>Unreal Engine 5</p>
+                    </button>
+                    <button class="workTags purpleColor" tabindex="-1">
+                        <p>User Research</p>
+                    </button>
+                    <button class="workTags purpleColor" tabindex="-1">
+                        <p>Survey</p>
+                    </button>
+                </div>
+            </div>
+            <div class="workEntryLink">
+                <div class="workEntryLinkEntry workTagsFocus">
+                    <a href="https://drive.google.com/file/d/1pWtXIyQ5QXaL41sF4bFxKxe42xjBm0CO/view?usp=sharing"
+                        target="_blank">
+                        <p>Project File Link</p>
+                        <img src="images/linkIcon.svg" alt="LinkIcon">
+                    </a>
+                </div>
+                <div class="workEntryLinkEntry">
+                    <a href="game_sidehustle.html">
+                        <p>Video and Read More</p>
+                        <img src="images/linkIcon.svg" alt="LinkIcon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="workEntry gameprogram gamedesign coding illust">
+            <img src="images/spaceInvaderProject.png" alt="SpaceInvader Project">
+            <div class="workEntryHeader">
+                <div class="workEntryTitle">
+                    <h3>Space Invader JavaScript</h3>
+                </div>
+                <div class="workEntryTags">
+                    <button class="workTags purpleColor" tabindex="-1">
+                        <p>Game Design</p>
+                    </button>
+                    <button class="workTags pinkColor" tabindex="-1">
+                        <p>JavaScript</p>
+                    </button>
+                    <button class="workTags greenColor" tabindex="-1">
+                        <p>Pixel Illustration</p>
+                    </button>
+                </div>
+            </div>
+            <div class="workEntryLink">
+                <div class="workEntryLinkEntry workTagsFocus">
+                    <a href="game_spaceinvader.html">
+                        <p>Play and Read More</p>
+                        <img src="images/linkIcon.svg" alt="LinkIcon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="workEntry gameprogram gamedesign processing illust">
+            <img src="images/creativeCodingProject.png" alt="Connecting Bridges Project">
+            <div class="workEntryHeader">
+                <div class="workEntryTitle">
+                    <h3>Connecting Bridges Creative Coding</h3>
+                </div>
+                <div class="workEntryTags">
+                    <button class="workTags purpleColor" tabindex="-1">
+                        <p>Game Design</p>
+                    </button>
+                    <button class="workTags redColor" tabindex="-1">
+                        <p>Processing</p>
+                    </button>
+                    <button class="workTags greenColor" tabindex="-1">
+                        <p>Pixel Illustration</p>
+                    </button>
+                </div>
+            </div>
+            <div class="workEntryLink">
+                <div class="workEntryLinkEntry workTagsFocus">
+                    <a href="game_connectingbridges.html">
+                        <p>Video and Read More</p>
+                        <img src="images/linkIcon.svg" alt="LinkIcon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="workEntry gamedesign">
+            <img src="images/outFrayProject.png" alt="Out of the Fray Project">
+            <div class="workEntryHeader">
+                <div class="workEntryTitle">
+                    <h3>Out of the Fray Project</h3>
+                </div>
+                <div class="workEntryTags">
+                    <button class="workTags purpleColor" tabindex="-1">
+                        <p>Game Design</p>
+                    </button>
+                </div>
+            </div>
+            <div class="workEntryLink">
+                <div class="workEntryLinkEntry workTagsFocus">
+                    <a href="game_outfray.html">
+                        <p>Read More</p>
+                        <img src="images/linkIcon.svg" alt="LinkIcon">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footerContent">
+            <div class="footerContact">
+                <p>Christofer Alvin 2024</p>
+            </div>
+            <div class="footerLinks">
+                <a href="https://www.linkedin.com/in/christofer-alvin-67b8101b7/" target="_blank">
+                    <p>LINKEDIN</p>
+                </a>
+                <a href="https://www.behance.net/christoferalvin" target="_blank">
+                    <p>BEHANCE</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
