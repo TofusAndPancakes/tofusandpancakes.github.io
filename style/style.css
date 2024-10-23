@@ -57,9 +57,34 @@ body {
     text-transform: uppercase;
 }
 
+.navbarLink.navbarLinkWide {
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+}
+
+.navbarLink.navbarLinkWideInverse {
+    display: none;
+}
+
 .navbarLink a {
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .navbarLink.navbarLinkWide {
+        display: none;
+    }
+
+    .navbarLink.navbarLinkWideInverse {
+        display: flex;
+    }
+
+    .navbarSmall {
+        display: flex;
+    }
 }
 
 .dropDownNav {
